@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "upload-multiple-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uploadMultiple/UploadMultipleWebPart.js",
+          "manifest": "./src/webparts/uploadMultiple/UploadMultipleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UploadMultipleWebPartStrings": "lib/webparts/uploadMultiple/loc/{locale}.js"
+  }
+}
